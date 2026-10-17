@@ -36,3 +36,5 @@ D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\refint\Temporal
 D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\Temporal Railway.pdb
 D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\Temporal Railway.genruntimeconfig.cache
 D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\ref\Temporal Railway.dll
+D:\Kuliah thingy\Projecct Game\Temporal Railway\bin\Debug\net9.0\Content\Images\logo.xnb
+D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\Temporal Railway.sourcelink.json

@@ -10,3 +10,4 @@ D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.
 D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\refint\MonogameLibrary.dll
 D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.pdb
 D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\ref\MonogameLibrary.dll
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.sourcelink.json

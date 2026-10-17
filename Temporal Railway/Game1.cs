@@ -41,6 +41,11 @@ private Texture2D _logo;
 
     protected override void Draw(GameTime gameTime)
     {
+
+        /// Note : The order do MATTER!!!!!!!!!
+    
+        // Changes The Background color
+        GraphicsDevice.Clear(Color.MonoGameOrange);
         // Begin the sprite batch to prepare for rendering.
         SpriteBatch.Begin();
 
@@ -49,8 +54,7 @@ private Texture2D _logo;
 
         // Always end the sprite batch when finished.
         SpriteBatch.End();
-        // Changes The Background color
-        GraphicsDevice.Clear(Color.MonoGameOrange);
+        
 
         // TODO: Add your drawing code here
 

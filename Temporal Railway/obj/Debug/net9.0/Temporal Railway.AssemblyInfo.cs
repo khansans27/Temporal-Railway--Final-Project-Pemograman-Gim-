@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Temporal Railway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cefcc6916c6618dcc96f94d40cd5eb32768b4417")]
 [assembly: System.Reflection.AssemblyProductAttribute("Temporal Railway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Temporal Railway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
