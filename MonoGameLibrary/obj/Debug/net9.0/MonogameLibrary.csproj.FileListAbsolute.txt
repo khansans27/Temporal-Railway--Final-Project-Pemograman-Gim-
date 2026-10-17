@@ -1,0 +1,12 @@
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\bin\Debug\net9.0\MonogameLibrary.deps.json
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\bin\Debug\net9.0\MonogameLibrary.dll
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\bin\Debug\net9.0\MonogameLibrary.pdb
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.csproj.AssemblyReference.cache
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.AssemblyInfoInputs.cache
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.AssemblyInfo.cs
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.csproj.CoreCompileInputs.cache
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.dll
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\refint\MonogameLibrary.dll
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\MonogameLibrary.pdb
+D:\Kuliah thingy\Projecct Game\MonogameLibrary\obj\Debug\net9.0\ref\MonogameLibrary.dll
