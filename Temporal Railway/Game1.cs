@@ -41,10 +41,16 @@ private Texture2D _logo;
 
     protected override void Draw(GameTime gameTime)
     {
+        // Begin the sprite batch to prepare for rendering.
+        SpriteBatch.Begin();
+
+        // Draw the logo texture
+        SpriteBatch.Draw(_logo, Vector2.Zero, Color.White);
+
+        // Always end the sprite batch when finished.
+        SpriteBatch.End();
         // Changes The Background color
         GraphicsDevice.Clear(Color.MonoGameOrange);
-
-
 
         // TODO: Add your drawing code here
 
