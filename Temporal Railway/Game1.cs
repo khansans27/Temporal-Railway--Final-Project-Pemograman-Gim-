@@ -45,12 +45,27 @@ private Texture2D _logo;
         /// Note : The order do MATTER!!!!!!!!!
     
         // Changes The Background color
-        GraphicsDevice.Clear(Color.MonoGameOrange);
+        GraphicsDevice.Clear(Color.CadetBlue);
+
         // Begin the sprite batch to prepare for rendering.
         SpriteBatch.Begin();
 
         // Draw the logo texture
-        SpriteBatch.Draw(_logo, Vector2.Zero, Color.White);
+        SpriteBatch.Draw(
+        _logo,          // texture
+        new Vector2(    // position
+            Window.ClientBounds.Width,
+            Window.ClientBounds.Height) * 0.5f, //0.5 is center
+            null, //Source Rectangle
+            Color.White,     // color
+            0.0f, //ROTATE
+            new Vector2(
+            _logo.Width, 
+            _logo.Height) * 0.5f, /// Origin/Anchor. Default scaling to upper-left
+            0.0f, //Scale
+            SpriteEffects.None, //effect
+            0.0f //Layer Depth
+    );
 
         // Always end the sprite batch when finished.
         SpriteBatch.End();
