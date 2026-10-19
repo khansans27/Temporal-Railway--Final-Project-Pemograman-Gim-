@@ -2,17 +2,22 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameLibrary;
+using MonoGameLibrary.Graphics;
+
 
 namespace Temporal_Railway;
 
 public class Game1 : Core
 {
+    // Defines the slime sprite.
+    private Sprite _slime;
 
-// The MonoGame Logo texture
-private Texture2D _logo;
-    public Game1()  :base("Temporal Railway", 1280,720,false)
+    // Defines the bat sprite.
+    private Sprite _bat;
+
+    public Game1() : base("Temporal Railway", 1280, 720, false)
     {
-        
+
     }
 
     protected override void Initialize()
@@ -24,9 +29,16 @@ private Texture2D _logo;
 
     protected override void LoadContent()
     {
-        // TODO: use this.Content to load your game content here
-        _logo = Content.Load<Texture2D>("Images/logo");
-        base.LoadContent();    
+        // Create the texture atlas from the XML configuration file
+        TextureAtlas atlas = TextureAtlas.FromFile(Content, "Images/atlas-definition.xml");
+
+        // Create the slime sprite from the atlas.
+        _slime = atlas.CreateSprite("slime");
+        _slime.Scale = new Vector2(4.0f, 4.0f);
+
+        // Create the bat sprite from the atlas.
+        _bat = atlas.CreateSprite("bat");
+        _bat.Scale = new Vector2(4.0f, 4.0f);
     }
 
     protected override void Update(GameTime gameTime)
@@ -41,37 +53,20 @@ private Texture2D _logo;
 
     protected override void Draw(GameTime gameTime)
     {
-
-        /// Note : The order do MATTER!!!!!!!!!
-    
-        // Changes The Background color
-        GraphicsDevice.Clear(Color.CadetBlue);
+        // Clear the back buffer.
+        GraphicsDevice.Clear(Color.CornflowerBlue);
 
         // Begin the sprite batch to prepare for rendering.
-        SpriteBatch.Begin();
+        SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
-        // Draw the logo texture
-        SpriteBatch.Draw(
-        _logo,          // texture
-        new Vector2(    // position
-            Window.ClientBounds.Width,
-            Window.ClientBounds.Height) * 0.5f, //0.5 is center
-            null, //Source Rectangle
-            Color.White,     // color
-            0.0f, //ROTATE
-            new Vector2(
-            _logo.Width, 
-            _logo.Height) * 0.5f, /// Origin/Anchor. Default scaling to upper-left
-            0.0f, //Scale
-            SpriteEffects.None, //effect
-            0.0f //Layer Depth
-    );
+               // Draw the slime sprite.
+        _slime.Draw(SpriteBatch, Vector2.Zero);
+
+        // Draw the bat sprite 10px to the right of the slime.
+        _bat.Draw(SpriteBatch, new Vector2(_slime.Width + 10, 0));
 
         // Always end the sprite batch when finished.
         SpriteBatch.End();
-        
-
-        // TODO: Add your drawing code here
 
         base.Draw(gameTime);
     }

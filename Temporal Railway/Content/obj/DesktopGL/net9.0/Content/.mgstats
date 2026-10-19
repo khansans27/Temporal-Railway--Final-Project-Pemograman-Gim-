@@ -1,2 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/Images/ atlas-definition.xml","D:\Kuliah thingy\Projecct Game\Temporal Railway\Content\bin\DesktopGL\Content\Images/ atlas-definition.xml","CopyItem","File",277,277,0.0019935
+"D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/Images/atlas-definition.xml","D:\Kuliah thingy\Projecct Game\Temporal Railway\Content\bin\DesktopGL\Content\Images/atlas-definition.xml","CopyItem","File",277,277,0.0022957
+"D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/Images/atlas.png","D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/bin/DesktopGL/Content/Images/atlas.xnb","TextureProcessor","Texture2DContent",590,16469,0.1570812
 "D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/Images/logo.png","D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/bin/DesktopGL/Content/Images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.1616269

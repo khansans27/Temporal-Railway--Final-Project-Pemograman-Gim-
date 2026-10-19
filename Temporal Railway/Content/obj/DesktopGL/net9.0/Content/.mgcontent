@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/Images/atlas.png</File>
     <File>D:/Kuliah thingy/Projecct Game/Temporal Railway/Content/Images/logo.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

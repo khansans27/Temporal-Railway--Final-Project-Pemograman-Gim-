@@ -38,3 +38,6 @@ D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\Temporal Railwa
 D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\ref\Temporal Railway.dll
 D:\Kuliah thingy\Projecct Game\Temporal Railway\bin\Debug\net9.0\Content\Images\logo.xnb
 D:\Kuliah thingy\Projecct Game\Temporal Railway\obj\Debug\net9.0\Temporal Railway.sourcelink.json
+D:\Kuliah thingy\Projecct Game\Temporal Railway\bin\Debug\net9.0\Content\Images\atlas.xnb
+D:\Kuliah thingy\Projecct Game\Temporal Railway\bin\Debug\net9.0\Content\Images\ atlas-definition.xml
+D:\Kuliah thingy\Projecct Game\Temporal Railway\bin\Debug\net9.0\Content\Images\atlas-definition.xml
