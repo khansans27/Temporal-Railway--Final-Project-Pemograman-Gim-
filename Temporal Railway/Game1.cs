@@ -9,11 +9,11 @@ namespace Temporal_Railway;
 
 public class Game1 : Core
 {
-    // Defines the slime sprite.
-    private Sprite _slime;
+    // Defines the slime animated sprite.
+    private AnimatedSprite _slime;
 
-    // Defines the bat sprite.
-    private Sprite _bat;
+    // Defines the bat animated sprite.
+    private AnimatedSprite _bat;
 
     public Game1() : base("Temporal Railway", 1280, 720, false)
     {
@@ -32,12 +32,12 @@ public class Game1 : Core
         // Create the texture atlas from the XML configuration file
         TextureAtlas atlas = TextureAtlas.FromFile(Content, "Images/atlas-definition.xml");
 
-        // Create the slime sprite from the atlas.
-        _slime = atlas.CreateSprite("slime");
+        // Create the slime animated sprite from the atlas.
+        _slime = atlas.CreateAnimatedSprite("slime-animation");
         _slime.Scale = new Vector2(4.0f, 4.0f);
 
-        // Create the bat sprite from the atlas.
-        _bat = atlas.CreateSprite("bat");
+        // Create the bat animated sprite from the atlas.
+        _bat = atlas.CreateAnimatedSprite("bat-animation");
         _bat.Scale = new Vector2(4.0f, 4.0f);
     }
 
@@ -45,6 +45,12 @@ public class Game1 : Core
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
+
+        // Update the slime animated sprite.
+        _slime.Update(gameTime);
+
+        // Update the bat animated sprite.
+        _bat.Update(gameTime);
 
         // TODO: Add your update logic here
 
